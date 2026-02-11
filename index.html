@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nuestra Historia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="pantalla-inicio">
+        <div id="btn-corazon">❤️</div>
+        <p>Toca para abrir nuestra nota</p>
+    </div>
+
+    <div id="contenedor-final" class="hidden">
+        <div class="nota-papel" id="main-layout">
+            <div id="tree-viewport">
+                <canvas id="treeCanvas"></canvas>
+                <canvas id="petalCanvas"></canvas>
+            </div>
+
+            <div id="contenido-texto">
+                <div id="poema-escrito"></div>
+                <div class="timer-box">
+                    <p>Llevamos juntos:</p>
+                    <div id="reloj"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
